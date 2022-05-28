@@ -11,6 +11,6 @@
 /* PRIMARY BUTTON */
 @layer components {
   .btn-primary {
-    @apply py-3 px-8 bg-BrightRed text-white font-semibold rounded-full shadow-md hover:opacity-75 focus:outline-none;
+    @apply py-3 px-8 bg-BrightRed text-white font-medium rounded-full shadow-md hover:opacity-75 focus:outline-none;
   }
 }
