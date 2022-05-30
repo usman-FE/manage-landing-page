@@ -80,38 +80,170 @@
 
     <!-- ABOUT SECTION -->
     <section class="about">
-      <div class="container mx-auto mt-24 lg:mt-28">
+      <div class="container mx-auto mt-24 mb-32 lg:mb-36 lg:mt-28">
         <!-- ABOUT CONENT -->
-        <div class="flex flex-col gap-y-12">
+        <div
+          class="flex flex-col items-center lg:items-start justify-between gap-y-12 lg:flex-row lg:gap-y-0"
+        >
           <!-- ABOUT LEFT -->
-          <div class="max-w-md md:text-left px-7">
+          <div class="max-w-lg md:text-left px-7">
             <h2
-              class="text-2xl leading-9 font-semibold text-DarkBlue mb-6 md:text-4xl"
+              class="text-2xl leading-9 font-semibold text-center text-DarkBlue mb-6 md:text-4xl md:text-left"
             >
               What’s different about Manage?
             </h2>
-            <p class="text-base leading-7 text-DarkGrayishBlue max-w-sm">
+            <p class="text-base leading-7 text-DarkGrayishBlue max-w-prose">
               Manage provides all the functionality your team needs, without the
               complexity. Our software is tailor-made for modern digital product
               teams.
             </p>
           </div>
           <!-- ABOUT RIGHT -->
+          <div class="flex flex-col gap-x-11 gap-y-11">
+            <!-- BOX 1 -->
+            <div
+              class="flex flex-col items-center pl-4 lg:grid lg:grid-cols-[min-content_minmax(max-content,_1fr)]"
+            >
+              <!-- DESKTOP HEADING -->
+              <div
+                class="bg-BrightRed text-white font-bold py-2 px-6 rounded-full hidden lg:block"
+              >
+                01
+              </div>
+              <h3
+                class="text-base font-bold pl-4 text-DarkBlue hidden lg:block"
+              >
+                Track company-wide progress
+              </h3>
+              <!-- MOBILE HEADING -->
+              <div
+                class="bg-VeryPaleRed rounded-l-full flex items-center w-full lg:hidden"
+              >
+                <div
+                  class="bg-BrightRed text-white font-bold py-2 px-6 rounded-full k"
+                >
+                  01
+                </div>
+                <h3 class="text-sm font-bold pl-4 text-DarkBlue">
+                  Track company-wide progress
+                </h3>
+              </div>
+              <p
+                class="text-sm leading-7 text-DarkGrayishBlue max-w-md lg:col-start-2 lg:col-end-3 lg:text-base lg:pl-4 pr-2 mt-4"
+              >
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+
+            <!-- BOX 2 -->
+            <div
+              class="flex flex-col items-center pl-4 lg:grid lg:grid-cols-[min-content_minmax(max-content,_1fr)]"
+            >
+              <!-- DESKTOP HEADING -->
+              <div
+                class="bg-BrightRed text-white font-bold py-2 px-6 rounded-full hidden lg:block"
+              >
+                02
+              </div>
+              <h3
+                class="text-base font-bold pl-4 text-DarkBlue hidden lg:block"
+              >
+                Advanced built-in reports
+              </h3>
+              <!-- MOBILE HEADING -->
+              <div
+                class="bg-VeryPaleRed rounded-l-full flex items-center w-full lg:hidden"
+              >
+                <div
+                  class="bg-BrightRed text-white font-bold py-2 px-6 rounded-full k"
+                >
+                  02
+                </div>
+                <h3 class="text-sm font-bold pl-4 text-DarkBlue">
+                  Advanced built-in reports
+                </h3>
+              </div>
+              <p
+                class="text-sm leading-7 text-DarkGrayishBlue max-w-md lg:col-start-2 lg:col-end-3 lg:pl-4 lg:text-base pr-2 mt-4"
+              >
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+
+            <!-- BOX 3 -->
+            <div
+              class="flex flex-col items-center pl-4 lg:grid lg:grid-cols-[min-content_minmax(max-content,_1fr)]"
+            >
+              <!-- DESKTOP HEADING -->
+              <div
+                class="bg-BrightRed text-white font-bold py-2 px-6 rounded-full hidden lg:block"
+              >
+                03
+              </div>
+              <h3
+                class="text-base font-bold pl-4 text-DarkBlue hidden lg:block"
+              >
+                Everything you need in one place
+              </h3>
+              <!-- MOBILE HEADING -->
+              <div
+                class="bg-VeryPaleRed rounded-l-full flex items-center w-full lg:hidden"
+              >
+                <div
+                  class="bg-BrightRed text-white font-bold py-2 px-6 rounded-full k"
+                >
+                  03
+                </div>
+                <h3 class="text-sm font-bold pl-4 text-DarkBlue">
+                  Everything you need in one place
+                </h3>
+              </div>
+              <p
+                class="text-sm leading-7 text-DarkGrayishBlue max-w-md lg:col-start-2 lg:col-end-3 lg:pl-4 lg:text-base pr-2 mt-4"
+              >
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!--           01 Track company-wide progress See how your
-    day-to-day tasks fit into the wider vision. Go from tracking progress at the
-    milestone level all the way done to the smallest of details. Never lose
-    sight of the bigger picture again. 02 Advanced built-in reports Set internal
-    delivery estimates and track progress toward company goals. Our customisable
-    dashboard helps you build out the reports you need to keep key stakeholders
-    informed. 03 Everything you need in one place Stop jumping from one service
-    to another to communicate, store files, track tasks and share documents.
-    Manage offers an all-in-one team productivity solution. What they’ve said
-    Anisha Li “Manage has supercharged our team’s workflow. The ability to
-    maintain visibility on larger milestones at all times keeps everyone
-    motivated.” Ali Bravo “We have been able to cancel so many other
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials">
+      <h2
+        class="text-2xl leading-9 font-semibold text-center text-DarkBlue mb-6 md:text-4xl"
+      >
+        What they’ve said
+      </h2>
+      <!-- TESTIMONIALS CONTAINER -->
+      <div class="relative mt-20">
+        <!-- CARD 1 -->
+        <div class="px-11 max-w-lg text-center bg-VeryLightGray">
+          <div class="max-w-[72px] mx-auto -translate-y-1/2">
+            <img
+              src="../images/avatar-anisha.png"
+              class="mx-w-full"
+              alt="User 1"
+            />
+          </div>
+          <h4 class="text-base font-bold text-DarkBlue mb-6">Anisha Li</h4>
+          <p class="text-base text-DarkGrayishBlue">
+            “Manage has supercharged our team’s workflow. The ability to
+            maintain visibility on larger milestones at all times keeps everyone
+            motivated.”
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--                
+      Ali Bravo “We have been able to cancel so many other
     subscriptions since using Manage. There is no more cross-channel confusion
     and everyone is much more focused.” Richard Watts “Manage allows us to
     provide structure and process. It keeps us organized and focused. I can’t
