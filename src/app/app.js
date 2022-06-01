@@ -1,9 +1,16 @@
 const hamburgerBtn = document.querySelector('#hamburgerBtn');
 const hamburgerMenu = document.querySelector('#hamburgerMenu');
+const toggle = document.querySelector('.toggle');
 
 hamburgerBtn.addEventListener('click', function () {
   hamburgerMenu.classList.toggle('hidden');
   hamburgerMenu.classList.toggle('flex');
+  toggle.classList.toggle('hamburger');
+  if (toggle.classList.contains('hamburger')) {
+    toggle.src = 'images/icon-close.svg';
+  } else {
+    toggle.src = 'images/icon-hamburger.svg';
+  }
 });
 
 const caroselBullets = document.querySelector('#carosel-bullets');
