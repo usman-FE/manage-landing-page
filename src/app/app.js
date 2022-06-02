@@ -41,6 +41,7 @@ function handleIntersect(entries) {
 let options = {
   root: null,
   rootMargin: '0px',
+  threshold: 1,
 };
 carousel.forEach((card) => {
   observer = new IntersectionObserver(handleIntersect, options);
